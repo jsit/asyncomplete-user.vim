@@ -22,6 +22,11 @@ call asyncomplete#register_source(asyncomplete#sources#user#get_source_options({
 \  }))
 ```
 
+## Create user-defined completion function
+
+To make it easier to create a user-defined `completefunc`, try the
+[vim-customcpt](https://github.com/jsit/vim-customcpt) plugin.
+
 ## Note
 
 If `completefunc` change cursor position, `asyncomplete-user.vim` does not work correctly.
